@@ -1,0 +1,17 @@
+sources:
+  installFromRoot: true
+
+transformations:
+  replace:
+
+    - name: acceleratorName
+      token: acc-name
+      with: "#acceleratorName"
+
+    - name: gitUrl
+      token: acc-git-url
+      with: "#gitUrl"
+
+    - name: gitBranch
+      token: acc-git-branch
+      with: "#gitBranch"
