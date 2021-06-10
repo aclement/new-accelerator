@@ -1,9 +1,10 @@
 accelerator:
-  displayName: New Accelerator
-  description: Generate yaml for a new Accelerator resource.
+  displayName: Spring Boot project
+  description: Generate an amazing Spring Boot project
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
   tags:
     - Tanzu
+    - Spring
     - Accelerator
   options:
     - name: acceleratorName
